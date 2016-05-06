@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">W_manager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- sd -->
+    <string name="category_all">All</string>
+    <string name="category_apk">APKs</string>
+    <string name="category_document">Docs</string>
+    <string name="category_favorite">Favorites</string>
+    <string name="category_music">Music</string>
+    <string name="category_other">Misc</string>
+    <string name="category_picture">Pics</string>
+    <string name="category_theme">Themes</string>
+    <string name="category_video">Videos</string>
+    <string name="category_zip">Zips</string>
+    <string name="enable_sd_card">SD卡不可用</string>
+    <string name="error_info_cant_send_folder">不能发送文件夹</string>
+    <string name="fail_to_create_folder">创建失败，文件名已存在</string>
+    <string name="fail_to_rename">重命名失败，名称已存在</string>
+    <string name="file_info_canread">读:</string>
+    <string name="file_info_canwrite">写:</string>
+    <string name="file_info_ishidden">隐藏:</string>
+    <string name="file_info_location">路径:</string>
+    <string name="file_info_modified">时间:</string>
+    <string name="file_sort_name">名称</string>
+    <string name="file_sort_type">类型</string>
+    <string name="file_sort_size">大小</string>
+    <string name="file_sort_time">时间</string>
+    <string name="file_info_size">大小:</string>
+    <string name="file_size">%d Bytes</string>
+    <string name="install_failed">安装失败</string>
+    <string name="install_successful">安装成功</string>
+    <string name="no_file">空</string>
+    <string name="file_count">个</string>
+    <string name="operation_copyedpath">已复制到剪切板</string>
+    <string name="operation_file_warning">文件名不能为空！</string>
+    <string name="operation_cancel">取消</string>
+    <string name="operation_ok">确认</string>
+    <string name="operation_selectall">全选</string>
+    <string name="operation_cancel_selectall">取消</string>
+    <string name="operation_copy">复制</string>
+    <string name="operation_copy_path">复制路径</string>
+    <string name="operation_create_folder">新建文件夹</string>
+    <string name="operation_create_folder_message">输入名称</string>
+    <string name="operation_delete">删除</string>
+    <string name="operation_more">更多</string>
+    <string name="operation_back">返回上一级...</string>
+    <string name="operation_sort">排序</string>
+    <string name="operation_delete_confirm_message">确认删除</string>
+    <string name="operation_delete_confirm_message1">个?</string>
+    <string name="operation_deleting">删除中...</string>
+    <string name="operation_hide_sys">隐藏点文件</string>
+    <string name="operation_show_sys">显示点文件</string>
+    <string name="operation_info">详情</string>
+    <string name="operation_move">移动</string>
+    <string name="operation_moving">移动中...</string>
+    <string name="operation_paste">粘贴</string>
+    <string name="operation_pasting">粘贴中...</string>
+    <string name="operation_rename">重命名</string>
+    <string name="operation_rename_message">输入新的名称</string>
+    <string name="operation_send">发送</string>
+    <string name="sd_folder">SD card</string>
+    <string name="storage_warning">外置SD卡不可用或者不存在</string>
+    <string name="dialog_select_type">选择类型</string>
+    <string name="dialog_type_text">文本</string>
+    <string name="dialog_type_audio">音乐</string>
+    <string name="dialog_type_video">视频</string>
+    <string name="dialog_type_image">图像</string>
+    <string name="open_info_failed">打开失败</string>
+    <string name="file_empty"> 没有文件</string>
+    <string name="sd_internal">内部存储</string>
+    <string name="sd_external">sd卡</string>
+
+    <!-- sd -->
+
+    <string name="only_choose_num">超出可选图片张数</string>
+    <string name="finish">完成</string>
+    <string name="invalidSD">sdcard无效或没有插入！</string>
+    <string name="photo">选择相册</string>
+    <string name="album">相册</string>
+    <string name="preview">预览</string>
+    <string name="unfinished">完成</string>
+    <string name="camera_cancel">取消</string>
+    <string name="no_photo">相册没有图片</string>
+    <string name="delete_or_not">确定删除</string>
+    <string name="download_dialog">你确定下载吗</string>
+    <string name="yes">确定</string>
+    <string name="no">取消</string>
+    <string name="version">版本:</string>
+    <string name="msg_load_ing">努力加载中...</string>
+    <!-- 今天加的 -->
+    <string name="W_manager_app">个应用</string>
+    <string name="W_manager_photo">张图片</string>
+    <string name="W_manager_music">首音乐</string>
+    <string name="W_manager_video">个视频</string>
+    <string name="W_manager_docume">份文档</string>
+    <string name="W_manager_sd">浏览SD卡</string>
+    <string name="W_manager_available_space">手机可用空间</string>
+    <string name="W_manager_sd_available_space">SD卡可用空间</string>
+    <string name="W_manager_tools">相关工具</string>
+    <string name="W_manager_recommended">热门推荐</string>
+    <string name="W_manager_recommended_net">热门推荐</string>
+    <string name="W_app_apps">应用</string>
+    <string name="W_app_photos">图片</string>
+    <string name="W_app_musics">音乐</string>
+    <string name="W_app_videos">视频</string>
+    <string name="W_app_documes">文档</string>
+    <string name="W_app_musicName">未知</string>
+    <string name="W_manager_bot_first">首页</string>
+    <string name="W_manager_bot_two">下载管理</string>
+    <string name="W_manager_bot_three">应用卸载</string>
+    <!-- 未翻译 -->
+    <string name="Loading_Dialog">亲别急，努力加载中哦</string>
+    <string name="toast_long">数据加载有问题,服务器可能有异常！</string>
+    <string name="toast_short">网络有问题</string>
+    <string name="toast_net">网络访问中...</string>
+    <string name="toast_con">亲，你的网络有问题！</string>
+    <string name="toast_failure">数据访问失败，请重新刷新！</string>
+    <string name="w_app_update">检测到新版本</string>
+    <string name="w_app_ok">下载</string>
+    <string name="w_app_no">取消</string>
+    <string name="w_dialog_loading">您确定下载：</string>
+    <string name="w_manage_news">新闻头条</string>
+    <string name="w_manage_pretty_picture">美女图片</string>
+    <string name="w_manage_hot_app">热门应用</string>
+    <string name="w_manage_TOP10">TOP10游戏</string>
+    <string name="w_manage_count">0</string>
+    <string name="w_manage_title_tv">查看图片</string>
+    <string name="w_manage_xz_downloading">apk 正在下载...</string>
+    <string name="w_manage_xz_start">开始下载</string>
+    <string name="w_manage_xz_end">下载完成</string>
+    <string name="w_manage_xz_message">请等下载完，再下载</string>
+    <string name="toast_con2">未知错误</string>
+    <string name="w_dialog_toast">  还在扫描中哦...</string>
+    <string name="w_dialog_suc">  个删除成功</string>
+    <string name="w_dialog_fai">  删除失败</string>
+    <string name="all">全选</string>
+    <string name="w_app_dec">删除</string>
+    <string name="w_app_fragments">数据加载失败</string>
+    <string name="w_app_first_back">返回</string>
+    <string name="w_apk_name">文件管理</string>
+    <string name="w_apk_down_select">选择</string>
+    <string name="w_apk_down_installation">安装</string>
+    <string name="w_apk_down_del">删除</string>
+    <string name="w_apk_unist_del">卸载</string>
+    <string name="w_apk_unist_version">版本：</string>
+    <string name="w_apk_unist_size">大小：</string>
+    <string name="w_document_null">暂无文档</string>
+    <string name="w_image_null">暂无图片</string>
+    <string name="w_music_null">暂无音乐</string>
+    <string name="w_video_null">暂无视频</string>
+    <string name="w_apk_exit">再按一次退出程序</string>
+    <string name="w_language">zh_CN</string>
+    <string name="w_apk_all">全部应用</string>
+    <string name="scan_app_wait">请等待扫描完成</string>
+    <!--
+    <string name="w_open_music"> 请用音乐类软件打开</string>
+    <string name="w_open_video"> 请用视频类软件打开</string>
+    -->
+    <string name="w_open_docs">未找到相应打开程序</string>
+  <string name="app_bug">很抱歉,程序出现异常,即将退出</string> 
+    <string name="app_send_crash">是否发送错误报告以帮助我们更好的为你服务?</string>
+    <string name="request_recommend">热门推荐</string>
+    <string name="request_tools">相关工具</string>
+    
+    <string name="W_app_na">N/A</string>
+    
+    <string name="roundprogressbar">正在更新视频缩略图</string>
+
+</resources>

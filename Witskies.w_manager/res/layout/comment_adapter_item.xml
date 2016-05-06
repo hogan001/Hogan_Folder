@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:orientation="horizontal" >
+
+    <CheckBox
+        android:id="@+id/comment_adapter_checkbox"
+        style="@style/CustomCheckboxTheme"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/comment_adapter_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp" />
+
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+         android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/comment_adapter_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:singleLine="true"
+            android:text="@string/W_app_musicName"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+                android:layout_height="0dp"
+            android:layout_weight="1"
+            
+            android:layout_marginTop="10dp"
+             android:layout_gravity="center"
+               android:layout_marginBottom="2dp"
+            android:orientation="horizontal" >
+
+
+            <TextView
+                android:id="@+id/comment_adapter_time"
+               android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/W_app_musicName"
+                android:textColor="#a5a5a5"
+                 android:layout_gravity="center"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/comment_adapter_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:text="@string/W_app_musicName"
+                 android:layout_gravity="center"
+                android:textColor="#a5a5a5"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

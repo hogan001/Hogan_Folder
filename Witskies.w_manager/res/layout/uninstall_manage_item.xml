@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/downloaded_file"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/uninstall_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center|left"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/uninstall_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/W_app_musicName"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/uninstall_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:singleLine="true"
+                android:text="@string/W_app_musicName"
+                android:textColor="#a5a5a5"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/uninstall_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:singleLine="true"
+                android:text="@string/W_app_musicName"
+                android:textColor="#a5a5a5"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/uninstall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/w_select"
+            android:focusable="false"
+            android:text="@string/w_apk_unist_del"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dp" >
+
+    <com.witskies.manager.makeheadimage.FileImageView
+        android:id="@+id/apps_categoryimage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+         android:background="@drawable/apks_item"  />
+
+    <TextView
+        android:id="@+id/app_CategoryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/apps_categoryimage"
+        android:layout_centerHorizontal="true"
+        android:maxLength="6"
+        android:maxLines="1"
+         android:layout_marginBottom="5dp"
+       >
+    </TextView>
+
+</RelativeLayout>

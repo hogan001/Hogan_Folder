@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.witskies.w_manager"
+    android:installLocation="internalOnly"
+    android:versionCode="2"
+    android:versionName="1.0.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:name="com.witskies.manager.app.WitskiesApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/w_manager"
+        android:label="@string/w_apk_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme1" >
+        <activity
+            android:name="com.witskies.manager.activity.TabHostActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.witskies.manager.activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/w_apk_name" />
+        <!--
+        <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+   
+        <activity android:name="com.witskies.manager.activity.WebActivity" >
+        </activity>
+        <activity android:name="com.witskies.manager.activity.DownloadActivity" >
+        </activity>
+        <activity android:name="com.witskies.manager.activity.UninstallActivity" >
+        </activity>
+        <activity android:name="com.witskies.manager.activity.AppDispalyActivity" >
+        </activity>
+
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".SearchActivity" />
+
+        <service android:name="com.witskies.manager.service.DownloadService" />
+
+        <activity
+            android:name="com.witskies.manager.activity.SelectActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="com.witskies.manager.activity.ImagePagerActivity" >
+        </activity>
+        <activity
+            android:name="com.witskies.manager.fileexplorer.FileMainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden" >
+        </activity>
+        <activity android:name="com.witskies.manager.activity.SDSelectActivity" >
+        </activity>
+        <activity
+            android:name="com.witskies.manager.activity.CrashActivity"
+            android:theme="@style/transcutestyle" >
+        </activity>
+
+        <service android:name="com.witskies.manager.service.CrashService" >
+        </service>
+        <service android:name="com.witskies.manager.multithread.DownLoaderService" >
+        </service>
+    </application>
+</manifest>

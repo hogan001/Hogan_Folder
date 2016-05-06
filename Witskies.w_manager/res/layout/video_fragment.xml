@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/layout_empty" />
+
+        <include layout="@layout/layout_loading" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/video_gridview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp" >
+            </ListView>
+        </LinearLayout>
+
+        <include layout="@layout/bottom_fragment" />
+
+        <include layout="@layout/bottom_fragment_del" />
+    </LinearLayout>
+
+    <!--
+         <com.witskies.manager.util.RoundProgressBar
+        xmlns:android_custom="http://schemas.android.com/apk/res/com.witskies.w_manager"
+        android:id="@+id/roundprogressBar_video"
+        android_custom:style="FILL"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_centerInParent="true"
+        android_custom:roundProgressColor="#ff0000"
+        android_custom:roundWidth="1dip" />
+    -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerInParent="true"
+        layout="@layout/roundprogressbar_item" />
+
+</RelativeLayout>

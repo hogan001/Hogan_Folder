@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <solid android:color="#ffffff" />
+
+    <stroke
+        android:width="1dip"
+        android:color="#A0A0A0" />
+
+    <padding
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp" />
+
+    <!-- bottomRightRadius是左下角而不是右下角，bottomLeftRadius右下角  topLeftRadius 右上角  topRightRadius 左上角 -->
+    <corners
+        android:topRightRadius="2dp"
+        android:bottomRightRadius="2dp"
+        android:topLeftRadius="2dp"
+        android:bottomLeftRadius="2dp"/>
+
+</shape>
